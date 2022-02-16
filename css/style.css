@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+
+}
+
+h1 {
+  margin-bottom: 0.9375rem;
+  font-size: 3.625rem;
+}
+
+h2 {
+  margin-bottom: 0.9375rem;
+  font-size: 3rem;
+}
+
+h4 {
+  margin-bottom: 0.9375rem;
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 0.9375rem;
+  font-size: 1rem;
+}
+
+/* font-family: 'Dancing Script', cursive; */
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/* ==============================Headers section============================= */
+/* ===============top header============= */
+.top-header{
+  background: #FEF7F6;
+}
+.col span{
+  font-size: 0.75rem;
+}
+/* Header badge */
+.menu ul li a {
+  color: #000 !important;
+  font-size: 0.85rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  transform: all 0.4s ease-in;
+}
+
+.menu ul li a:hover {
+  color: #FF5353 !important;
+}
+
+.badge {
+  font-size: .5rem;
+  cursor: pointer;
+  background: #FF5353;
+}
+
+.fa-heart,
+.fa-cart-shopping,
+.fa-magnifying-glass {
+  cursor: pointer;
+}
+
+/* header banner */
+.banner {
+  background-image: url(../image/bg-1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/* shop button */
+.shop-btn {
+  padding: .8rem 3.120rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  background: #FF5353;
+  color: #fff;
+}
+
+.shop-btn:hover {
+  background: #fff;
+  color: #007BFF;
+}
+
+/* Banner box */
+
+.banner-box-title {
+  color: #000;
+
+}
+
+.banner-box-subtitle {
+  color: #565656;
+  letter-spacing: 3px;
+  font-size: 0.85rem;
+}
+
+/* =============================Features section======================= */
+.features {
+  padding-top: 6rem;
+}
+
+.feature-title {
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+/* Ratting */
+.ratting {
+  color: #FF5353;
+}
+
+/*=============================== Woman collection Banner=========================== */
+.woman-collection {
+  background-color: #eae2d8;
+}
+
+.woman-title {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.woman-subtitle {
+  font-weight: 400 !important;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+/*====================== Most popular  ========================*/
+.most-popular{
+  margin-top: 5rem;
+}
+/* Solin journal */
+.silon-journal{
+  padding-top: 5rem;
+}
+.date{
+  color: #565656;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.post-title a{
+  color: #000 !important;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+
+}
+.post-title a:hover{
+  color: #FF5353 !important;
+  
+
+}
+.social-tags a{
+  color: #565656;
+  font-size: 0.7rem;
+}
+.social-tags a:hover{
+  color: #FF5353;
+  font-size: 0.7rem;
+}
+/*=================== Service section========================== */
+.service{
+  padding-top: 5rem;
+}
+.icon-content{
+  margin-top: 2.5rem;
+}
+.icon-title{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.icon-subtitle{
+  color: #565656;
+}
+.border{
+  padding: 0.6rem 1.9rem;
+}
+/*======================= Follow us ===================== */
+.follow-us{
+  padding-top: 5rem;
+
+}
+/* Footer section */
+.footer{
+  padding-top: 5rem;
+  background: #E9E2D8;
+  
+
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0 0.4rem;
+  margin: 0;
+  
+}
+.footer ul li {
+  padding-bottom: .9375rem;
+}
+.footer ul li a{
+  text-decoration: none;
+  color: #000;
+  transition: all 0.4s ease;
+}
+.footer ul li a:hover{
+  color: #FF5353;
+  margin-left: 0.3rem;
+}
+.raihan{
+text-decoration: none;
+color: #FF5353;
+
+}
+.social-icon-box i{
+  background: #fff;
+  padding: 0.5rem;
+  margin: 0 0.1rem;
+  font-size: 1.1rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  color: #000;
+}
+.social-icon-box i:hover{
+  background: #FF5353;
+  color:#fff
+}

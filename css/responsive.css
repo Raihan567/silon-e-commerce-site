@@ -1,0 +1,63 @@
+/* Desktop device */
+@media (max-width: 1200px) { 
+  
+}
+/* Tablet device */
+@media (max-width: 992px) { 
+  .banner-image img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .banner-box-title{
+    font-size: 2.5rem;
+  }
+  /* Woman section */
+  .woman-title{
+    font-size: 3rem;
+    padding: 0 0;
+  }
+  .woman-image img{
+    height: 100%;
+    width: 100% ;
+  }
+  .woman-image{
+    width: 116%;
+  }
+  .col-md-3{
+    margin-top: 3.5rem;
+  }
+}
+/* Medium device */
+
+@media (max-width: 768px) { 
+  .woman-title{
+    padding-top: 10 !important;
+  }
+  .woman-image{
+    width: 110% !important;
+  }
+  .top-header{
+    display: none;
+  }
+}
+/* Mobile device */
+@media (max-width: 576px) { 
+  .banner-box-title{
+    font-size: 2.5rem;
+  }
+  .heading-line{
+    display: none !important;
+  }
+  .woman-image{
+    width: 100% !important;
+
+  }
+  .col-md-3{
+    margin-top: 3.5rem;
+  }
+  .top-header{
+    display: none;
+  }
+  
+}
